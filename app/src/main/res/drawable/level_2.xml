@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+            android:height="400dp"
+            android:width="400dp"
+            android:viewportHeight="400"
+            android:viewportWidth="400">
+
+            <!-- TOP LEFT -->
+            <path
+                android:strokeColor="#00BFFF"
+                android:strokeWidth="2"
+                android:pathData="M 0,170 L 36,170 L 47,143 L 180,143 L 225,0  "/>
+
+            <!-- TOP RIGHT -->
+            <path
+                android:strokeColor="#00BFFF"
+                android:strokeWidth="2"
+                android:pathData="M 265,0 L 225,143 L 400,143 L 387,175 L 400,175   "/>
+
+            <!-- BOTTOM LEFT-->
+            <path
+                android:strokeColor="#00BFFF"
+                android:strokeWidth="2"
+                android:pathData="M 0,220 L 16,220 L 0,258 L 150,258 L 100,400  "/>
+
+            <!-- BOTTOM RIGHT -->
+            <path
+                android:strokeColor="#00BFFF"
+                android:strokeWidth="2"
+                android:pathData="M 150,400 L 195,258 L 355,258 L 369,225 L 400,225   "/>
+
+            <!--LEFT PARALLELOGRAM-->
+            <path
+                android:strokeColor="#666362"
+                android:strokeWidth="3"
+                android:pathData="M 50,150 L 195,150 L 165,250 L 10,250 Z "/>
+
+            <!--RIGHT PARALLELOGRAM-->
+            <path
+                android:strokeColor="#666362"
+                android:strokeWidth="3"
+                android:pathData="M 205,150 L 390,150 L 350,250 L 175,250 Z  "/>
+
+        </vector>
+    </item>
+    <item
+        android:drawable="@drawable/d_225"
+        android:width="10dp"
+        android:height="10dp"
+        android:left="35dp"
+        android:top="170dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/d_2"
+        android:width="15dp"
+        android:height="15dp"
+        android:left="25dp"
+        android:top="190dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/d_229"
+        android:width="10dp"
+        android:height="10dp"
+        android:left="20dp"
+        android:top="212dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/d_231"
+        android:width="10dp"
+        android:height="10dp"
+        android:left="15dp"
+        android:top="225dp">
+
+    </item>
+
+    <item
+        android:drawable="@drawable/b_202"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="55dp"
+        android:top="147dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/b_204"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="65dp"
+        android:top="147dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/b_206"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="75dp"
+        android:top="147dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/b_208"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="90dp"
+        android:top="147dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/b_210"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="100dp"
+        android:top="147dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/b_212"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="115dp"
+        android:top="147dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/b_216"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="130dp"
+        android:top="147dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/b_218"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="145dp"
+        android:top="147dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/b_220"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="160dp"
+        android:top="147dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/b_224"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="175dp"
+        android:top="147dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/b_2"
+        android:width="15dp"
+        android:height="15dp"
+        android:left="193dp"
+        android:top="143dp">
+
+    </item>
+    <!--FROM intersection GOING East-->
+    <item
+        android:drawable="@drawable/b_234"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="220dp"
+        android:top="147dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/b_234i"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="240dp"
+        android:top="147dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/b_242"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="270dp"
+        android:top="147dp">
+
+    </item>
+    <item android:id="@+id/b_242i"
+        android:drawable="@drawable/b_242i"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="305dp"
+        android:top="147dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/b_252"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="340dp"
+        android:top="147dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/b_252i"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="370dp"
+        android:top="147dp">
+
+    </item>
+    <!--SOUTH from West-->
+    <item
+        android:drawable="@drawable/c_201"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="20dp"
+        android:top="245dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/c_203"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="35dp"
+        android:top="245dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/c_205"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="45dp"
+        android:top="245dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/c_207"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="60dp"
+        android:top="245dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/c_209"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="75dp"
+        android:top="245dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/c_213"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="85dp"
+        android:top="245dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/c_213i"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="105dp"
+        android:top="245dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/c_217"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="115dp"
+        android:top="245dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/c_221"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="130dp"
+        android:top="245dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/c_221i"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="145dp"
+        android:top="245dp">
+
+    </item>
+    <!--South Corridor-->
+    <item
+        android:drawable="@drawable/c_2"
+        android:width="15dp"
+        android:height="15dp"
+        android:left="163dp"
+        android:top="242dp">
+
+    </item>
+
+    <!--South room East of intersection-->
+    <item
+        android:drawable="@drawable/c_235"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="195dp"
+        android:top="245dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/c_235i"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="215dp"
+        android:top="245dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/c_239"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="235dp"
+        android:top="245dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/c_239i"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="255dp"
+        android:top="245dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/c_243"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="270dp"
+        android:top="245dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/c_251"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="300dp"
+        android:top="245dp">
+
+    </item>
+    <item
+        android:drawable="@drawable/c_251i"
+        android:width="8dp"
+        android:height="8dp"
+        android:left="330dp"
+        android:top="245dp">
+
+    </item>
+    <!--East Corridor-->
+    <item
+        android:drawable="@drawable/f_2"
+        android:width="15dp"
+        android:height="15dp"
+        android:left="365dp"
+        android:top="190dp">
+
+    </item>
+    <!--Elevator in corridor-->
+    <item
+        android:drawable="@drawable/elevator"
+        android:width="10dp"
+        android:height="10dp"
+        android:left="175dp"
+        android:top="230dp">
+    </item>
+    <!--Restrooms-->
+    <item
+        android:drawable="@drawable/rroom_m"
+        android:width="10dp"
+        android:height="10dp"
+        android:left="165dp"
+        android:top="220dp">
+    </item>
+    <item
+        android:drawable="@drawable/rroom_w"
+        android:width="10dp"
+        android:height="10dp"
+        android:left="183dp"
+        android:top="160dp">
+    </item>
+
+</layer-list>

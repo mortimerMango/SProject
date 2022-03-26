@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/csudhRed"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:textStyle="bold"
+        android:textColor="@color/csudhGold"
+        android:textSize="50sp"
+        android:text="TEDDY"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:src="@mipmap/teddy_foreground"
+        android:gravity="center_horizontal|center_vertical" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="70sp"
+        android:translationX="-50dp"
+        android:text="CSU"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/csudhGold"
+        android:textSize="70sp"
+        android:translationX="65dp"
+        android:translationY="-95dp"
+        android:text="DH"/>
+
+
+
+
+</LinearLayout>

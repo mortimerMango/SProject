@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:background="@color/csudhRed">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="202dp"
+            android:layout_height="229dp"
+            android:layout_gravity="top"
+
+            app:srcCompat="@drawable/icon_csudh" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/roomSelect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/room_selection_icon_foreground"
+            android:background="@color/csudhGold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="108dp"
+            android:background="@color/smoke"
+            android:padding="20dp"
+            android:text="ROOM SELECTION"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:gravity="center_horizontal|center_vertical"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/freeTeddy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/mascot_icon_foreground"
+            android:background="@color/csudhGold"/>
+
+        <TextView
+            android:layout_width="225dp"
+            android:layout_height="108dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/smoke"
+            android:padding="20dp"
+            android:text="Meet Teddy"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:gravity="center_horizontal|center_vertical"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
+

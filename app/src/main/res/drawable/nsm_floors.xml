@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Floor Layout -->
+    <item>
+        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+            android:height="400dp"
+            android:width="400dp"
+            android:viewportHeight="400"
+            android:viewportWidth="400">
+
+            <!--Level 1 -->
+            <path
+                android:strokeColor="#63D1F4"
+                android:strokeWidth="4"
+                android:fillColor="#63D1F4"
+                android:fillAlpha="0.7"
+                android:pathData="M 15,350 L 80,270 L 375,270 L 320,350 Z " />
+
+            <!--Level 1 corridor -->
+            <path
+                android:strokeColor="#FF000000"
+                android:fillColor="#FF000000"
+                android:strokeWidth="4"
+                android:strokeAlpha="0.8"
+                android:fillAlpha="0.4"
+                android:strokeLineCap="round"
+                android:pathData="M 172,350 L 220,270 L 214,270 L 166,350 Z "
+                />
+
+            <!--level 1 border -->
+            <path
+                android:strokeColor="#FF03DAC5"
+                android:strokeAlpha="0.8"
+                android:strokeWidth="4"
+                android:fillColor="#63D1F4"
+                android:fillAlpha="0.4"
+                android:pathData="M 5,355 L 155,355 L 120,405
+                            L 149,405 L 180,355 L 324,355
+                            L 360,300 L 385,265
+                            L 77,265 L 48,300 L 0,300 L 0,315
+                            L 37,315 Z"/>
+
+
+            <!--Stairs indicator -->
+            <path
+                android:strokeColor="#007FFF"
+                android:strokeWidth="5"
+                android:strokeLineCap="round"
+                android:pathData="M 55,155 L 55,309" />
+
+            <!--Elevator indicator -->
+            <path
+                android:strokeColor="#DDA0DD"
+                android:strokeWidth="4"
+                android:strokeAlpha="0.9"
+                android:strokeLineCap="round"
+                android:pathData="M 182,185 L 182,340" />
+
+            <!-- Level 2 -->
+            <path
+                android:strokeColor="#4F94CD"
+                android:strokeWidth="4"
+                android:fillColor="#4F94CD"
+                android:fillAlpha="0.4"
+                android:pathData="M 15,200 L 80,120 L 375,120 L 320,200 Z " />
+
+            <!--Level 2 corridor -->
+            <path
+                android:strokeColor="#FF000000"
+                android:fillColor="#FF000000"
+                android:strokeWidth="4"
+                android:strokeAlpha="0.8"
+                android:fillAlpha="0.4"
+                android:strokeLineCap="round"
+                android:pathData="M 172,200 L 220,120 L 214,120 L 166,200 Z " />
+
+            <!--level 2 border -->
+            <path
+                android:strokeColor="#FF018786"
+
+                android:strokeWidth="4"
+                android:fillColor="#63D1F4"
+                android:fillAlpha="0.5"
+                android:pathData="M 4,205 L 155,205 L 125,250
+                            L 152,250 L 180,205 L 324,205
+                            L 354,160 L 405,160 L 405,145
+                            L 365,145 L 385,115
+                            L 233,115 L 260,70 L 235,70
+                            L 205,115
+                            L 77,115 L 52,145 L 0,145 L 0,160
+                            L 41,160 Z"/>
+        </vector>
+    </item>
+
+</layer-list>
